@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  body{
+    background-color: rgba(0, 255, 213, 0.46);
+    /* text-align: center; */
+    background-image: url(../apply);
+  }
+  h1{
+    text-align: center;
+    color: blue;
+  }
+  
+ input,select,textarea{
+  border-radius: 4px;
+ border: 1px solid red;
+ margin-bottom: 30px;
+ }
+ input{
+  width: calc(100%-10px);
+  padding: 5px;
+ }
+</style>
+<body>
+  <fieldset>
+    <legend></legend>
+    <h1>Plasma Donor Registration Form</h1>
+    <form action="SEND ADDRESS" id="ft-form" method="POST" accept-charset="UTF-8" enctype="multipart/form-data">
+          <div class="two-cols">
+            <label>
+              First name *
+              <input type="text" name="First name" placeholder="Frist Name" required>
+            </label>
+            <label>
+              last Name *
+              <input type="text" name="Last name" placeholder="Last Name"  required>
+            </label>
+          </div>
+          <div class="two-cols">
+            <label>
+              Citizenship*
+              <input type="text" name="Citizenship" placeholder="Citizenship*"   required>
+            </label>
+            <label>
+              Date of birth*
+              <input type="date" name="Date of birth" placeholder="Date of birth*" required>
+            </label>
+            
+          </div>
+          <label>
+            <label>
+              Age in(Year) *
+              <input type="text" name="College name" required>
+            </label>
+            <label>
+            </label>
+          </label>
+          <label>
+        
+            <label for="Blood Group">Blood Group*
+            <select id="Blood Group" name="Blood Group">
+              <option value="A">A</option>
+              <option value="AB">AB</option>
+              <option value="O">O</option>
+              <option value="A+">A+</option>
+            </select>
+          </label>
+          </label>
+              Address*
+              <input type="text" name="College name" required>
+              <p class="question">SEX</p>
+              <div class="question-answer">
+                <label><input type="radio" value="none" name="visited" />Male</label>
+                <label><input type="radio" value="none" name="visited" />Female</label>
+                <label><input type="radio" value="none" name="visited" />othere</label>
+              </div>
+            <!-- </label>
+            Address*
+            <textarea name="Address" placeholder="Enter your Address" required></textarea>               
+          </label>
+          -->
+          <div class="two-cols">
+            <label>
+              ZIP Code
+              <input type="text" name="ZIP">
+            </label>
+            <label>
+              City
+              <input type="text" name="City">
+            </label>
+          </div>
+          <div class="two-cols">
+            <label>
+              Phone *
+              <input type="tel" name="Phone" required>
+            </label>
+            <label>
+              Email address *
+              <input type="email" name="Email" required>
+            </label>
+          </div>
+          <legend>Application documents</legend>
+          <input type="hidden" name="MAX_FILE_SIZE" value="10485760">
+          <div class="two-cols">
+            <!-- <label>
+           Resume*
+              <input type="file" name="Application letter" accept=".doc,.docx,.pdf">
+            </label>
+            <label>
+              Photo*
+              <input type="file" name="Curriculum vitae" accept=".doc,.docx,.pdf">
+            </label>
+          </div>
+          <p>Possible file types: DOC, PDF. Maximum file size: 10 MB.</p>
+         -->
+        <!-- <div class="btns">
+          <input type="text" name="_gotcha" value="" style="display:none;">
+          <input type="submit" value="Submit application">
+        </div> -->
+        </fieldset>
+      </form>
+    
+</body>
+</html>
